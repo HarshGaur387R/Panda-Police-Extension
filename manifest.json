@@ -3,8 +3,17 @@
 	"description":"This extension blocks websites",
 	"version": "1.0",
 	"manifest_version": 3,
+	"permissions": [
+        "activeTab",
+        "storage",
+        "tabs"
+    	],	
 	"action":{
 		"default_popup": "popup.html",
 		"default_icon": "./icons/icon.png" 
-	}
+	},
+	"background": {
+        "service_worker": "./background.js",
+        "type": "module"
+    	}	
 }
