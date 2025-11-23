@@ -101,6 +101,10 @@ img {
 	width: 200px;
 	height: 200px;
 }
+.block-list-link{
+	text-align: center;
+	color: yellow;
+}
 
 .block-list-container {
 	display: flex;
