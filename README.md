@@ -1,7 +1,9 @@
 # Panda Police — Simple Website Blocker
 ![Panda Police Logo](./icons/icon-128.png)
 
-> A minimal browser extension to block websites by hostname. Useful for focused browsing and simple parental-control scenarios.
+## What is Panda Police Extension ?
+A minimal browser extension to block websites by hostname. Useful for focused browsing and simple parental-control scenarios.
+You can block or unblock any (https only) website at anytime.
 
 ## Features
 - Block specific hostnames (e.g. `example.com`).
